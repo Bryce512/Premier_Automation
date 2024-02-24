@@ -4,14 +4,20 @@ Welcome to the Dance Competition Database Tool!
 
 ***************************************
 
+Key Features:
+1. Cleans the entry information on CSV
+  * Capitalizes all names
+  * Ignores entries without an event selected
+  * Allows you to chooose which entry information you want to keep
+2. Exports a TXT file needed for merging databases
 
 How To Begin Running the program:
                          * Download the program and CSV *
 1. Download the program from Github.
-  - Go to https//:github.com/Bryce512/Premier_Automation
-  - Click the green 'Code' button
-  - Click 'Download ZIP'
-  - Unzip the folder called Premier_Automation_main
+  * Go to https//:github.com/Bryce512/Premier_Automation
+  * Click the green 'Code' button
+  * Click 'Download ZIP'
+  * Unzip the folder called Premier_Automation_main
 2. Download the spreadsheet as a CSV by going to 
     Excel/Google Sheets > File > Download > Comma Separated Values (.csv)
 3. Move this file into the same folder as CSVtoTXT.py in Premier_Automation
@@ -39,22 +45,35 @@ How To Begin Running the program:
                     * You Did it! Now just follow the instructions *
                   * and your new file will appear in the same folder! *
 
-
+Using the Program:
+1. Read the start-up instructions
+2. Enter the columns that contain the first and last names of the participants
+  * This first set of entries is used to capitalize the names.
+  * You can include the Teacher's names as well if you'd like
+3. Enter the columns you would like to skip
+4. Enter the columns that contain the dance events
+  * There should be 3 for Bronze, Silver, and Gold.
+  * Enter as a range or individual columns.
+5. At this point the program will run and tell you
+  * "File Done! Your TXT file is called {name of file} *
+  * Look for this file in the same folder as the program.
 
 Tips for entering data:
-  - Enter the CSV into an EXCEL sheet (if not already) to get the column letters
-  - Enter a single letter or range a-z
-      - ex. 'a' or 'a-z'
-  - The program is NOT Case Sensitive
-      - ex. 'a' works just as 'A'
-  - Do NOT enter with quotation marks.
-  - You can not undo something once you hit 'Enter'
-      - luckily it runs pretty quick so just restart
+1. Enter the CSV into an EXCEL sheet (if not already) to get the column letters
+2. Enter a single letter or range
+  * ex. 'a' or 'a-z'
+3. The program is NOT Case Sensitive
+  * ex. 'a' works just as 'A'
+4. Do NOT enter with quotation marks.
+5. You can not undo something once you hit 'Enter'
+  * luckily it runs pretty quick so just restart with 'CTRL' > 'c'
+6. You have to hit 'Enter' when you're done with the prompt in order to move to the next one.
+  * Just don't type anything and hit 'Enter' to move on.
 
 
 *************************** -------> TroubleShooting <------------- *****************
   - If the program gives an INDEX ERROR: 
       - You probably just typed something in
-        wrong so just restart with hitting 'CTRL' then 'C'.
+        wrong so just restart with hitting 'CTRL' then 'c'.
       - Be sure to check that you are working with the correct columns. 
           ex. the program will give an error if it tries to capitalize a phone number
