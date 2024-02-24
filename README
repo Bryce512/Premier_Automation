@@ -1,0 +1,30 @@
+***************************************
+
+Welcome to the Dance Competition Database Tool!
+
+***************************************
+
+
+How To Begin Running the program:
+
+
+
+
+
+Tips for entering data:
+  - Enter the CSV into an EXCEL sheet (if not already) to get the column letters
+  - Enter a single letter or range a-z
+      - ex. 'a' or 'a-z'
+  - The program is NOT Case Sensitive
+      - ex. 'a' works just as 'A'
+  - Do NOT enter with quotation marks.
+  - You can not undo something once you hit 'Enter'
+      - luckily it runs pretty quick so just restart
+
+
+*************************** -------> TroubleShooting <------------- *****************
+  - If the program gives an INDEX ERROR: 
+      - You probably just typed something in
+        wrong so just restart with hitting 'CTRL' then 'C'.
+      - Be sure to check that you are working with the correct columns. 
+          ex. the program will give an error if it tries to capitalize a phone number
